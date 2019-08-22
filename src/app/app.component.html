@@ -1,0 +1,30 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+  <img width="500" alt="Angular Logo" src="https://res.cloudinary.com/drrezzrvd/image/upload/v1566470450/download_1_hmt3j6.png">
+</div>
+<!-- <h2>Here are some links to help you start: </h2> -->
+<!-- <ul>
+  <li>
+    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
+  </li>
+  <li>
+    <h2><a target="_blank" rel="noopener" href="https://angular.io/cli">CLI Documentation</a></h2>
+  </li>
+  <li>
+    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
+  </li>
+</ul> -->
+
+<router-outlet></router-outlet>
+<div>
+  <h1>My Quotes</h1>
+  
+  <ul>
+    <li *ngFor='let quote of Quotes'> {{quote}}</li>
+  </ul>
+</div>
+
+
