@@ -1,15 +1,25 @@
-<p>quote works!</p>
-<div>
+<!-- <p>quote works!</p> -->
+
+<div class="container">
         <h1>My Quotes</h1>
+        <hr>
+        <div class="row">
+        <div class="col-md-6">
         
-        <ul>
+        
           <div *ngFor='let quote of quotes;let i=index'> 
-                <li appStrikethrough>{{quote.name}} due on {{quote.completeDate|date|uppercase}}</li>
-            <button (click)='toggleDetails(i)'>Toggle</button>
-            <app-quote-detail *ngIf='quote.showDescription' [quote]='quote' (isComplete)='completeQuote($event,i)'></app-quote-detail>
+              <div>
+                <h4 id={{i}} appStrikethrough>{{quote.name}} due on {{quote.completeDate|date|uppercase}}</h4>
+            <button (click)='toggleDetails(i)' class="btn btn-primary">Toggle</button>
+        </div>
+        <div *ngIf='quote.showDescription'>
+            <app-quote-detail  [quote]='quote' (isComplete)='deleteQuote($event,i)'></app-quote-detail>
             </div>
+        </div>
+    </div>
+</div>
           
-        </ul>
+     
         <p *ngIf='quotes.length > 5'> you have more than 3 quotes</p>
         
       </div>
