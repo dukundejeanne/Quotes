@@ -1,7 +1,7 @@
 <!-- <p>quote works!</p> -->
 
 <div class="container">
-        <h1 style="text-align: center">My Quotes</h1>
+        <!-- <h1 style="text-align: center">My Quotes</h1> -->
         <hr>
         <div class="row">
         <div class="col-md-6">
@@ -13,7 +13,13 @@
             <button (click)='toggleDetails(i)' class="btn btn-primary">Toggle</button>
         </div>
         <div *ngIf='quote.showDescription'>
+       
             <app-quote-detail  [quote]='quote' (isComplete)='deleteQuote($event,i)'></app-quote-detail>
+             <!-- <ul class="list-inline"> -->
+                    <button (click)='upVoteQuote($event)'href="javascript:void(0)" class="link-black btn btn-sm btn-success"><i class="fa fa-thumbs-o-up margin-r-5"></i>UpVote</button>
+                    <button (click)='downVoteQuote($event)'href="javascript:void(0)" class="link-black btn btn-danger btn-success"><i class="fa fa-thumbs-o-down margin-r-5 "></i>DownVote</button>
+
+        <!-- </ul> -->
             </div>
         </div>
     </div>
