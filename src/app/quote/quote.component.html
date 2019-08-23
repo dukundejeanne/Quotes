@@ -15,9 +15,10 @@
         <div *ngIf='quote.showDescription'>
        
             <app-quote-detail  [quote]='quote' (isComplete)='deleteQuote($event,i)'></app-quote-detail>
+            
              <!-- <ul class="list-inline"> -->
-                    <button (click)='upVoteQuote($event)'href="javascript:void(0)" class="link-black btn btn-sm btn-success"><i class="fa fa-thumbs-o-up margin-r-5"></i>UpVote</button>
-                    <button (click)='downVoteQuote($event)'href="javascript:void(0)" class="link-black btn btn-danger btn-success"><i class="fa fa-thumbs-o-down margin-r-5 "></i>DownVote</button>
+                    <button (click)='upVoteQuote($event)'href="javascript:void(0)" class="link-black btn btn-sm btn-success"><i class="fa fa-thumbs-o-up margin-r-5"></i>UpVote{{upvote}}</button>
+                    <button (click)='downVoteQuote($event)'href="javascript:void(0)" class="link-black btn btn-danger btn-success"><i class="fa fa-thumbs-o-down margin-r-5 "></i>DownVote{{downvote}}</button>
 
         <!-- </ul> -->
             </div>
