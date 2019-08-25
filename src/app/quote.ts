@@ -9,8 +9,8 @@ export class Quote {
         
         this.showDescription=false;
             this.showAuthor=false;
-            this.showUpvote= upvote || 0;
-            this.showDownVote=downvote || 0;
+            this.showUpvote= 0;
+            this.showDownVote=0;
     }
   
     
