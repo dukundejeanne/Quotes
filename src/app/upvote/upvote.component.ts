@@ -8,6 +8,7 @@ import { Component, OnInit, Input } from '@angular/core';
 export class UpvoteComponent implements OnInit {
  
   @Input() upvote:number
+  
 
   constructor() { }
 
