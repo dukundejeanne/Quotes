@@ -23,6 +23,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 * Install Boostrap
 * Run the server
 * run the project using the link give by the serve http://localhost:4200/
+* This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.2.
 
 
 ## Code scaffolding
@@ -48,4 +49,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## License
 this app is use to read quotes and add quotes. It can be used by every one.
 
-## Copyright (C) 2019 Dukunde Marie Jeanne
+ Copyright (C) 2019 Dukunde Marie Jeanne
