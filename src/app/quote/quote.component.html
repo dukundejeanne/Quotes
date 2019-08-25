@@ -1,6 +1,9 @@
 <!-- <p>quote works!</p> -->
 
 <div class="container" style="color:white">
+    <div>
+        <!-- <p style="text-align: center;color:black;font-family:sans-serif">More than 4 Famous Quotes on Life, Love, and Success .The Quotes can inspire you by encourage any one</p> -->
+    </div>
         <!-- <h1 style="text-align: center">My Quotes</h1> -->
         <hr>
         <div class="row">
@@ -17,11 +20,7 @@
        
             <app-quote-detail  [quote]='quote' (isComplete)='deleteQuote($event,i)'></app-quote-detail>
             
-             <!-- <ul class="list-inline">
-                    <button (click)='upVoteQuote($event)'href="javascript:void(0)" class="link-black btn btn-sm btn-success"><i class="fa fa-thumbs-o-up margin-r-5"></i>UpVote{{upvote}}</button>
-                    <button (click)='downVoteQuote($event)'href="javascript:void(0)" class="link-black btn btn-danger btn-success"><i class="fa fa-thumbs-o-down margin-r-5 "></i>DownVote{{downvote}}</button> -->
-
-        <!-- </ul> -->
+             
             </div>
         </div>
     </div>
@@ -32,6 +31,7 @@
 </div>
         <p *ngIf='quotes.length >6'> you have more than 6 quotes</p>
         <hr>
+        
         
       </div>
       

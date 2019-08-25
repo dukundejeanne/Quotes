@@ -8,10 +8,10 @@ import { Quote } from '../quote';
 })
 export class QuoteComponent implements OnInit {
   quotes:Quote[] = [
-    new Quote('Life','-r.h.Sin','you derserve the world even if it means giving it to yourself',new Date(2019,3,14),0,0),
-    new Quote('Life','James','If you do not like someone story, write your oun',new Date(2019,3,14),0,0),
-    new Quote('Work','Dolly Parton','Do not get so busy making a living that you forget to make a life',new Date(2019,3,14),0,0),
-    new Quote('Time','Martin Luther King Jr.','The times is ways right to do what is right',new Date(2019,3,14),0,0),
+    new Quote('Dukunde','-r.h.Sin','you derserve the world even if it means giving it to yourself',new Date(2019,3,14),0,0),
+    new Quote('Marie','James','If you do not like someone story, write your oun',new Date(2019,3,14),0,0),
+    new Quote('Jeanne','Dolly Parton','Do not get so busy making a living that you forget to make a life',new Date(2019,3,14),0,0),
+    new Quote('Kelly','Martin Luther King Jr.','The times is ways right to do what is right',new Date(2019,3,14),0,0),
    
   ];
   toggleDetails(index){
