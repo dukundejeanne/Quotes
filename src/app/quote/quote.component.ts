@@ -22,14 +22,20 @@ export class QuoteComponent implements OnInit {
   //     this.quotes.splice(index,1);
   //   }
   // }
-  @Input() upvote:number
-  @Input() downvote:number
-  upVoteQuote(index){
-      this.quotes.reduce(index, this.upvote)
-  }
-  downVoteQuote(){
-      this.quotes.reduce;
-  }
+  // @Input() upvote:number
+  // @Input() downvote:number
+  // upVoteQuote(upvote){
+  //   let upVoteLength=this.upVoteQuote.length;
+  //   upvote.id=upVoteLength+1;
+  //   upvote.
+    
+ 
+    
+     
+  // }
+  // downVoteQuote(isComplete,index){
+  //     this.quotes;
+  // }
   deleteQuote(isComplete, index){
     if(isComplete){
       let toDelete=confirm(`Are You sure you want to delete ${this.quotes[index].name}?`)
@@ -41,7 +47,7 @@ export class QuoteComponent implements OnInit {
   addNewQuote(quote){
     let quoteLength=this.quotes.length;
     quote.id=quoteLength+1;
-    quote.ComplteDate=new Date(quote.completeDate)
+    quote.CompleteDate=new Date(quote.completeDate)
     this.quotes.push(quote)
   }
  

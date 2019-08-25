@@ -11,8 +11,8 @@ import { DateCountPipe } from './date-count.pipe';
 import { QuoteFormComponent } from './quote-form/quote-form.component';
 import { TimeAgoPipe } from './time-ago.pipe';
 // import { VoteLinkComponent } from './vote-link/vote-link.component';
-import { UpvoteComponent } from './upvote/upvote.component';
-import { DownvoteComponent } from './downvote/downvote.component';
+// import { UpvoteComponent } from './upvote/upvote.component';
+// import { DownvoteComponent } from './downvote/downvote.component';
 
 @NgModule({
   declarations: [
@@ -24,8 +24,8 @@ import { DownvoteComponent } from './downvote/downvote.component';
     QuoteFormComponent,
     TimeAgoPipe,
     // VoteLinkComponent,
-    UpvoteComponent,
-    DownvoteComponent
+    // UpvoteComponent,
+    // DownvoteComponent
   ],
   imports: [
     BrowserModule,
