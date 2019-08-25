@@ -25,7 +25,7 @@ export class QuoteComponent implements OnInit {
   @Input() upvote:number
   @Input() downvote:number
   upVoteQuote(index){
-      this.quotes.indexOf(index, +1)
+      this.quotes.reduce(index, this.upvote)
   }
   downVoteQuote(){
       this.quotes.reduce;
