@@ -1,8 +1,9 @@
 # Quotes
 ### The website application of Quotes. show all quotes and their author and can add any quote, August 25, 2019.
-### By Dukunde Marie Jeanne
+### Author
+ Dukunde Marie Jeanne
 ## Description 
-This project show, add Quotes after you can upvote and downvote any quote you like or you unlike. this project can delete any quote you want by clicking on the button of click. and you can be able to see the day or month past  after the quote is been posted.
+This project show andadd Quotes after you can upvote and downvote any quote you like or you unlike. this project can delete any quote you want by clicking on the button of click. and you can be able to see the day or month past  after the quote is been posted.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.2.
 
 
@@ -15,6 +16,14 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 * Angular as framework
 * Html
 * Css
+## Set up Instruction
+* Open the terminal
+* Install Angular in the terminal
+* Create a project folder
+* Install Boostrap
+* Run the server
+* run the project using the link give by the serve http://localhost:4200/
+
 
 ## Code scaffolding
 
@@ -38,4 +47,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## License
 this app is use to read quotes and add quotes. It can be used by every one.
-Copyright (C) 2019 Dukunde Marie Jeanne
+
+#Copyright (C) 2019 Dukunde Marie Jeanne
