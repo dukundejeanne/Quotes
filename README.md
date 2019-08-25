@@ -48,4 +48,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## License
 this app is use to read quotes and add quotes. It can be used by every one.
 
-##Copyright (C) 2019 Dukunde Marie Jeanne
+## Copyright (C) 2019 Dukunde Marie Jeanne
