@@ -1,5 +1,6 @@
 <!-- <p>quote-detail works!</p> -->
 <p>{{quote.description}}</p>
+<p>{{quote.author}}</p>
 <p>{{upvote}}</p>
 <p>{{downvote}}</p>
 <!-- <button (click)='quoteComplete(true)'>Like</button> -->
@@ -7,8 +8,8 @@
 
 <p>{{quote.completeDate|timeAgo}}</p>
 <button (click)='quoteDelete(true)' class="btn btn-outline-danger">Delete</button>
-<button (click)='upVoteQuote()' class="link-black btn btn-sm btn-success">UpVote</button>
-<button (click)='downVoteQuote()' class="link-black btn btn-danger btn-success">DownVote</button>
+<button (click)='upVoteQuote()' class="btn btn-outline-sm btn-success">UpVote</button>
+<button (click)='downVoteQuote()' class=" btn btn-outline-danger ">DownVote</button>
 
 
 
